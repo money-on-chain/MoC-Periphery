@@ -60,22 +60,47 @@ interface IOracleInfoGetter {
         uint256 availableRewards;
     }
 
+    /**
+        Return all the information needed by the ui (one call, to avoid a lot of rpc)
+
+        @param _coinPairPrice coinPairPrice contract
+    */
     function getCoinPairUIInfo(
         ICoinPairPrice _coinPairPrice
     ) external view returns (CoinPairPriceUIInfo memory coinPairPriceUIInfo);
 
+    /**
+        Return all the information needed by the ui (one call, to avoid a lot of rpc)
+
+        @param _oracleManager oracleManager contract
+        @param _offset take from this offset
+        @param _limit take to this limit, limit == 0 => take all
+    */
     function getManagerUICoinPairInfo(
         IOracleManager _oracleManager,
         uint256 _offset,
         uint256 _limit
     ) external view returns (ManagerUICoinPairInfo[] memory info);
 
+    /**
+        Return all the information needed by the ui (one call, to avoid a lot of rpc)
+
+        @param _oracleManager oracleManager contract
+        @param _from The index to start from.
+        @param _cant Number of items to return.
+    */
     function getManagerUIOracleInfo(
         IOracleManager _oracleManager,
         uint256 _from,
         uint256 _cant
     ) external view returns (ManagerUIOracleInfo[] memory info, address nextEntry);
 
+    /**
+        Return all the information needed by the oracle server (one call, to avoid a lot of rpc)
+
+        @param _oracleManager oracleManager contract
+        @param _coinPairPrice coinPairPrice contract
+    */
     function getOracleServerInfo(
         IOracleManager _oracleManager,
         ICoinPairPrice _coinPairPrice
