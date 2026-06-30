@@ -2,8 +2,8 @@
 pragma solidity 0.6.12;
 pragma experimental ABIEncoderV2;
 
-import { ICoinPairPrice } from "./ICoinPairPrice.sol";
-import { IOracleManager } from "./IOracleManager.sol";
+import {ICoinPairPrice} from "./ICoinPairPrice.sol";
+import {IOracleManager} from "./IOracleManager.sol";
 
 interface IOracleInfoGetter {
     struct FullOracleRoundInfo {

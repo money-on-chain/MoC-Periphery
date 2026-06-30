@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.12;
 
-import { IStakingMachine } from "./IStakingMachine.sol";
+import {IStakingMachine} from "./IStakingMachine.sol";
 
 /// This contract manages the Oracle and CoinPair registration info.
 /// The Oracle python server interacts with this contract:

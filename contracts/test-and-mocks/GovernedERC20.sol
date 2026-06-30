@@ -4,10 +4,10 @@ pragma solidity 0.6.12;
 // prettier-ignore
 import {ERC20UpgradeSafe} from "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol";
 
-import { Initializable } from "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol";
-import { IGovernor } from "../moc-governance/Governance/IGovernor.sol";
-import { Governed } from "../moc-governance/Governance/Governed.sol";
-import { IMintableERC20 } from "../IMintableERC20.sol";
+import {Initializable} from "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol";
+import {IGovernor} from "../moc-governance/Governance/IGovernor.sol";
+import {Governed} from "../moc-governance/Governance/Governed.sol";
+import {IMintableERC20} from "../IMintableERC20.sol";
 
 contract GovernedERC20 is Initializable, Governed, ERC20UpgradeSafe, IMintableERC20 {
     /**

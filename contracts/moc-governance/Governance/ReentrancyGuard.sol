@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.12;
 
-import { Initializable } from "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol";
+import {Initializable} from "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol";
 
 /**
  * @title Helps contracts guard against reentrancy attacks.

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.12;
 
-import { AddressSetLib } from "../lib/AddressSetLib.sol";
+import {AddressSetLib} from "../lib/AddressSetLib.sol";
 
 contract AddressSetLibMock {
     using AddressSetLib for AddressSetLib.AddressSet;

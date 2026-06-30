@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.12;
 
-import { IERC20 } from "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.sol";
-import { IDelayMachine } from "./IDelayMachine.sol";
-import { IOracleManager } from "./IOracleManager.sol";
+import {IERC20} from "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.sol";
+import {IDelayMachine} from "./IDelayMachine.sol";
+import {IOracleManager} from "./IOracleManager.sol";
 
 interface IStakingMachine {
     /// @notice Used by the voting machine to lock the current balance of MOCs.

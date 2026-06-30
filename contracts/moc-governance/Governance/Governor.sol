@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.12;
 
-import { Initializable } from "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol";
-import { Ownable } from "./Ownable.sol";
-import { ReentrancyGuard } from "./ReentrancyGuard.sol";
-import { ChangeContract } from "./ChangeContract.sol";
-import { IGovernor } from "./IGovernor.sol";
+import {Initializable} from "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol";
+import {Ownable} from "./Ownable.sol";
+import {ReentrancyGuard} from "./ReentrancyGuard.sol";
+import {ChangeContract} from "./ChangeContract.sol";
+import {IGovernor} from "./IGovernor.sol";
 
 /**
   @title Governor

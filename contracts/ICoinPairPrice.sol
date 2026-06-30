@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.12;
 
-import { IERC20 } from "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.sol";
-import { IRegistry } from "./IRegistry.sol";
-import { IOracleManager } from "./IOracleManager.sol";
+import {IERC20} from "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.sol";
+import {IRegistry} from "./IRegistry.sol";
+import {IOracleManager} from "./IOracleManager.sol";
 
 /// @title This contract provides an interface for feeding prices from oracles, and
 ///        get the current price. One contract must be instanced per supported coin pair,

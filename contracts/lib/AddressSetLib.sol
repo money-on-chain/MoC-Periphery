@@ -124,11 +124,7 @@ library AddressSetLib {
     /**
      * @dev Returns the set contents as an array
      */
-    function asArray(AddressSet storage set)
-        internal
-        view
-        returns (address[] memory selectedOracles)
-    {
+    function asArray(AddressSet storage set) internal view returns (address[] memory selectedOracles) {
         return set._values;
     }
 }

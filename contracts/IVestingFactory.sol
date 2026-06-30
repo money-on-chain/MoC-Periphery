@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.12;
 
-import { IRegistry } from "./IRegistry.sol";
-import { IVestingMachine } from "./IVestingMachine.sol";
+import {IRegistry} from "./IRegistry.sol";
+import {IVestingMachine} from "./IVestingMachine.sol";
 
 interface IVestingFactory {
     /// @notice Create a holder wallet

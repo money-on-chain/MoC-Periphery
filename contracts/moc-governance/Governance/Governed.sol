@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.12;
 
-import { IGovernor } from "./IGovernor.sol";
+import {IGovernor} from "./IGovernor.sol";
 
 /**
   @title Governed
