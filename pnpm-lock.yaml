@@ -11,9 +11,6 @@ importers:
       '@openzeppelin/contracts-ethereum-package':
         specifier: 3.0.0
         version: 3.0.0
-      solc:
-        specifier: 0.8.35
-        version: 0.8.35
     devDependencies:
       '@nomicfoundation/hardhat-toolbox-viem':
         specifier: 5.0.7
@@ -30,6 +27,9 @@ importers:
       prettier-plugin-solidity:
         specifier: ^1.4.3
         version: 1.4.3(prettier@2.8.8)
+      solc:
+        specifier: 0.8.35
+        version: 0.8.35
       solhint:
         specifier: ^6.0.1
         version: 6.2.3(typescript@5.9.3)
