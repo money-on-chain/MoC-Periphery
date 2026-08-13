@@ -68,6 +68,10 @@ contract RegistryConstants {
     bytes32 public constant MOC_VOTING_MACHINE_VOTING_TIME_DELTA =
         0xb43ee0a5ee6dcc7115ce824e4e353526ad6e479afa4daeb78451070de942de36;
 
+    // MOC_VOTING_MACHINE_ACCEPTED_STEP_PRIORITY_TIME_DELTA = keccak256(moc.voting-machine.acceptedStepPriorityTimeDelta)
+    bytes32 public constant MOC_VOTING_MACHINE_ACCEPTED_STEP_PRIORITY_TIME_DELTA =
+        0x966841a4b245a1fdec6244a638f8c320312779e88c67bc05fde78d6c98c5a9aa;
+
     // ORACLE_MANAGER_ADDR = keccak256(MOC_ORACLE\1\ORACLE_MANAGER_ADDR)
     bytes32 public constant ORACLE_MANAGER_ADDR = 0x16986f74674f2ed21d50b6e74e6b12bb323ff4f72364542fd5de5104f3cc3ca9;
 
@@ -246,6 +250,11 @@ library RegistryConstantsLib {
     function MOC_VOTING_MACHINE_VOTING_TIME_DELTA() internal pure returns (bytes32) {
         // keccak256(moc.voting-machine.votingTimeDelta)
         return 0xb43ee0a5ee6dcc7115ce824e4e353526ad6e479afa4daeb78451070de942de36;
+    }
+
+    function MOC_VOTING_MACHINE_ACCEPTED_STEP_PRIORITY_TIME_DELTA() internal pure returns (bytes32) {
+        // keccak256(moc.voting-machine.acceptedStepPriorityTimeDelta)
+        return 0x966841a4b245a1fdec6244a638f8c320312779e88c67bc05fde78d6c98c5a9aa;
     }
 
     function ORACLE_MANAGER_ADDR() internal pure returns (bytes32) {
