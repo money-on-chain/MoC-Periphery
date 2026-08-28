@@ -1,6 +1,6 @@
 {
   "name": "@moneyonchain/periphery",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "Reusable Money on Chain utility, interface, and governance contracts",
   "repository": {
     "type": "git",
